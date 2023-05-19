@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+<<<<<<< HEAD
 using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
@@ -20,11 +21,21 @@ public class PlayerController : MonoBehaviour
         SetCountText();
         winText.text = "";
 
+=======
+
+public class PlayerController : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+>>>>>>> player
     }
 
     // Update is called once per frame
     void Update()
     {
+<<<<<<< HEAD
         var moveHorizontal = Input.GetAxis("Horizontal");
         var moveVertical = Input.GetAxis("Vertical");
 
@@ -51,5 +62,8 @@ public class PlayerController : MonoBehaviour
         {
             winText.text = "You Win!";
         }
+=======
+        
+>>>>>>> player
     }
 }
